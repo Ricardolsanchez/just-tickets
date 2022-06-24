@@ -1,0 +1,796 @@
+.modal__wrapper__Sign{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #14141f9c;
+    z-index: 8888888;
+}
+
+.single__modal__Sign{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 520px;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+    border-radius: 5px;
+    padding: 30px;
+    z-index: 4444444 !important;
+}
+
+.close__modal__Sign{
+    position: absolute;
+    top: 0%;
+    right: 6%;
+    z-index: 9999999;
+    
+}
+
+.close__modal__Sign i{
+    background: red;
+    color: #fff;    
+    position: absolute;
+    top: 20%;
+    margin-left: -0px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 6px;
+    z-index: 8888888;
+}
+
+.buttonSign button{
+    position: absolute;
+    color: white;
+    background:#0E1B31;
+    margin-top: 76%;
+    left: 40%;
+    z-index: 9999999;
+
+}
+
+h5, h6{
+    color: #0E1B31;
+    z-index: 8888888;
+}
+
+.terms{
+    position: absolute;
+    margin-top: -30px;
+    z-index: 8888888;
+}
+
+.name-sign{
+    position: absolute;
+    margin-top: 14%;
+    left: 10%;
+    color: #0E1B31;
+}
+
+.full__name input{
+    position: absolute;
+    background: #ffffff !important;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    top: 26%;
+    left: 15%;
+    width: 70%;
+    height: 7%;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.full__name span{
+    position: absolute;
+    margin-top: 17%;
+    left: 9%;
+    z-index: 8888888;
+}
+
+.phone__number h5{
+    position: absolute;
+    margin-top: 30%;
+    left: 10%;
+    color: #0E1B31;
+    z-index: 8888888;
+}
+
+.phone__number input{
+    position: absolute;
+    background: #ffffff !important;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    top: 41%;
+    left: 15%;
+    width: 70%;
+    height: 7%;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.phone__number span{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    z-index: 8888888;
+}
+
+.New__password__sign h5{
+    position: absolute;
+    margin-top: 45%;
+    left: 10%;
+    z-index: 8888888;
+}
+
+.New__password__sign span{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    z-index: 8888888;
+}
+
+.New__password__sign input{
+    position: absolute;
+    background: #ffffff !important;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    top: 55%;
+    left: 15%;
+    width: 70%;
+    height: 7%;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.New__email__sign input{
+    position: absolute;
+    background: #ffffff !important;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    top: 69%;
+    left: 15%;
+    width: 70%;
+    height: 7%;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.New__email__sign h5{
+    position: absolute;
+    top: 63%;
+    left: 9%;
+    z-index: 8888888;
+}
+
+.New__email__sign span{
+    position: absolute;
+    top: 66%;
+    left: 10%;
+    z-index: 8888888;
+}
+
+
+.full__name span i{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: #0E1B31;
+    z-index: 8888888;
+}
+
+
+.buttonSign img{
+    position: absolute;
+    border-radius: 20px;
+    width: 279px;
+    height: 120px;
+    top: 82.5%;
+    left: 24%;
+    cursor: pointer;
+    z-index: 8888888;
+}
+
+
+@media only screen and (max-width: 414px){
+    .modal__wrapper__Sign{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #14141f9c;
+        z-index: 8888888;
+    }
+    
+    .single__modal__Sign{
+       position: relative;
+       top: 50%;
+       left: 50%;
+       width: 500px;
+       height: 500px;
+       transform: translate(-50%,-50%);
+       background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+       border-radius: 5px;
+       padding: 30px;
+       z-index: 9999999 !important;
+    }
+    
+    .close__modal__Sign{
+        position: absolute;
+        top: 0%;
+        right: 6%;
+        z-index: 9999999;
+        
+    }
+    
+    .close__modal__Sign i{
+        background: red;
+        color: #fff;    
+        position: absolute;
+        top: 20%;
+        margin-left: -10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        line-height: normal;
+        padding: 6px;
+        z-index: 8888888;
+    }
+    
+    .buttonSign button{
+        color: white;
+        background:#0E1B31;
+        margin-top: 10%;
+        left: 0%;
+    
+    }
+    
+    h5, h6{
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .terms{
+        position: absolute;
+        margin-top: -30px;
+        z-index: 8888888;
+    }
+    
+    .name-sign{
+        position: absolute;
+        margin-top: 20%;
+        left: 10%;
+        color: #0E1B31;
+    }
+    
+    .full__name input{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .full__name span{
+        position: absolute;
+        margin-top: 40%;
+        z-index: 8888888;
+    }
+    
+    .phone__number h5{
+        position: absolute;
+        margin-top: 40%;
+        left: 10%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .phone__number input{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .phone__number span{
+        position: absolute;
+        top: 73%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign h5{
+        position: absolute;
+        margin-top: 60%;
+        left: 10%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign span{
+        position: absolute;
+        top: 85%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign input{
+        position: absolute;
+        margin-top: 42%;
+        left: 20%;
+        z-index: 8888888;
+    }
+
+    .New__email__sign input{
+        position: absolute;
+        top: 37%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .New__email__sign h5{
+        position: absolute;
+        top: 58%;
+        left: 9%;
+        z-index: 8888888;
+    }
+
+    .New__email__sign span{
+        position: absolute;
+        top: 100%;
+        z-index: 8888888;
+    }
+    
+    
+    .full__name span i{
+        position: absolute;
+        top: 100%;
+        left: 60%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    
+    .buttonSign img{
+        position: absolute;
+        border-radius: 20px;
+        width: 279px;
+        height: 120px;
+        top: 80%;
+        left: 10%;
+        cursor: pointer;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:hover{
+        opacity: 0.5;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:active{
+        transform: scale(0.8);
+        z-index: 8888888;
+    } 
+    
+}
+
+@media only screen and (max-width: 414px){
+    .modal__wrapper__Sign{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #14141f9c;
+        z-index: 8888888;
+    }
+    
+    .single__modal__Sign{
+       position: absolute;
+       top: 30%;
+       left: 25%;
+       width: 350px;
+       height: 500px;
+       background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+       border-radius: 5px;
+       padding: 30px;
+       z-index: 9999999 !important;
+    }
+    
+    .close__modal__Sign{
+        position: absolute;
+        top: 0%;
+        right: 6%;
+        z-index: 9999999;
+        
+    }
+    
+    .close__modal__Sign i{
+        background: red;
+        color: #fff;    
+        position: absolute;
+        top: 20%;
+        margin-left: -10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        line-height: normal;
+        padding: 6px;
+        z-index: 8888888;
+    }
+    
+    .buttonSign button{
+        position: absolute;
+        background: #0E1B31;
+        color: #fff;
+        margin: 10px;
+        display: flex;
+        padding: 10px 70px 5px;
+        width: 50%;
+        height:10%;
+        line-height: 100%;
+        left: 23%;
+        top: 62%;
+    }
+    
+    h5, h6{
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .terms{
+        position: absolute;
+        margin-top: -30px;
+        z-index: 8888888;
+    }
+    
+    .name-sign{
+        position: absolute;
+        margin-top: 20%;
+        left: 10%;
+        color: #0E1B31;
+    }
+    
+    .full__name input{
+        position: absolute;
+        background: #ffffff !important;
+        border: none;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        top: 60%;
+        left: 15%;
+        width: 70%;
+        height: 7%;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        display: none;
+    }
+    
+    .full__name span{
+        position: absolute;
+        margin-top: 22%;
+        z-index: 8888888;
+    }
+    
+    .phone__number h5{
+        position: absolute;
+        margin-top: 36%;
+        left: 10%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .phone__number input{
+        position: absolute;
+        background: #ffffff !important;
+        border: none;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        top: 52%;
+        left: 15%;
+        width: 70%;
+        height: 7%;
+        font-size: 0.8rem;
+        border-radius: 20px;
+    }
+    
+    .phone__number span{
+        position: absolute;
+        top: 33%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign h5{
+        position: absolute;
+        margin-top: 57%;
+        left: 10%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign span{
+        position: absolute;
+        top: 49%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign input{
+        position: absolute;
+        background: #ffffff !important;
+        border: none;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        top: -5%;
+        left: 15%;
+        width: 70%;
+        height: 7%;
+        font-size: 0.8rem;
+        border-radius: 20px;
+    }
+
+    .New__email__sign input{
+        position: absolute;
+        background: #ffffff !important;
+        border: none;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        top: 37%;
+        left: 15%;
+        width: 70%;
+        height: 7%;
+        font-size: 0.8rem;
+        border-radius: 20px;
+    }
+    
+    .New__email__sign h5{
+        position: absolute;
+        top: 55%;
+        left: 9%;
+        display: none;
+        z-index: 8888888;
+    }
+
+    .New__email__sign span{
+        position: absolute;
+        top: 57%;
+        display: none;
+        z-index: 8888888;
+    }
+    
+    
+    .full__name span i{
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    
+    .buttonSign img{
+        position: absolute;
+        border-radius: 20px;
+        width: 279px;
+        height: 120px;
+        top: 70%;
+        left: 10%;
+        cursor: pointer;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:hover{
+        opacity: 0.5;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:active{
+        transform: scale(0.8);
+        z-index: 8888888;
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    .modal__wrapper__Sign{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #14141f9c;
+        z-index: 8888888;
+    }
+    
+    .single__modal__Sign{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       width: 350px;
+       height: 500px;
+       background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+       border-radius: 5px;
+       padding: 30px;
+       z-index: 9999999 !important;
+    }
+    
+    .close__modal__Sign{
+        position: absolute;
+        top: 0%;
+        right: 6%;
+        z-index: 9999999;
+        
+    }
+    
+    .close__modal__Sign i{
+        background: red;
+        color: #fff;    
+        position: absolute;
+        top: 20%;
+        margin-left: -10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        line-height: normal;
+        padding: 6px;
+        z-index: 8888888;
+    }
+    
+    .buttonSign button{
+        position: absolute;
+        background: #0E1B31;
+        color: #fff;
+        margin: 10px;
+        display: flex;
+        padding: 10px 70px 5px;
+        width: 50%;
+        height:10%;
+        line-height: 100%;
+        left: 24%;
+        top: 70%;
+    }
+    
+    h5, h6{
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .terms{
+        position: absolute;
+        margin-top: -30px;
+        z-index: 8888888;
+    }
+    
+    .name-sign{
+        position: absolute;
+        margin-top: 18%;
+        left: 10%;
+        color: #0E1B31;
+    }
+    
+    .full__name input{
+        position: absolute;
+        top: 72%;
+        left: 20%;
+        display: none;
+        z-index: 8888888;
+    }
+    
+    .full__name span{
+        position: absolute;
+        margin-top: 21%;
+        margin-left: 2%;
+        z-index: 8888888;
+    }
+    
+    .phone__number h5{
+        position: absolute;
+        margin-top: 40%;
+        left: 10%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    .phone__number input{
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .phone__number span{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign h5{
+        position: absolute;
+        margin-top: 60%;
+        left: 10%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign input{
+        position: absolute;
+        top: -5%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .New__password__sign span{
+        position: absolute;
+        margin-top: 5%;
+        left: 12%;
+        z-index: 8888888;
+    }
+
+    .New__email__sign input{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        z-index: 8888888;
+    }
+    
+    .New__email__sign h5{
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        z-index: 8888888;
+        display: none;
+    }
+
+    .New__email__sign span{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        display: none;
+        z-index: 8888888;
+    }
+    
+    
+    .full__name span i{
+        position: absolute;
+        top: 100%;
+        left: 60%;
+        color: #0E1B31;
+        z-index: 8888888;
+    }
+    
+    
+    .buttonSign img{
+        position: absolute;
+        border-radius: 20px;
+        width: 279px;
+        height: 120px;
+        top: 80%;
+        left: 10%;
+        cursor: pointer;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:hover{
+        opacity: 0.5;
+        z-index: 8888888;
+    }
+    
+    .buttonSign img:active{
+        transform: scale(0.8);
+        z-index: 8888888;
+    }
+    
+    
+    
+}
+

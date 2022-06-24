@@ -1,0 +1,112 @@
+form{
+    position: relative;
+    margin-left: 105%;
+    margin-top: -39%;
+    width: 90%;
+    background: linear-gradient(23deg, #ffe365, #e2be1d);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form__input input, .form__input textarea {
+    width: 100%;
+    padding: 5px 10px;
+    color: #0E1B31;
+    margin-bottom: 15px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: .8rem;
+}
+
+.submit__btn{
+    background: #0E1B31;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 7px 25px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.submit__btn:active{
+    transform: scale(0.8);
+}
+
+
+
+@media screen and (max-width: 992px) {
+    form{
+        position: relative;
+        margin-left: 124%;
+        margin-top: -50%;
+        width: 90%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form{
+        position: relative;
+        margin-left: 140%;
+        margin-top: -60%;
+        width: 90%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .form{
+        position: relative;
+        margin-left: 115%;
+        margin-top: -60%;
+        width: 90%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }   
+}
+
+@media screen and (max-width: 486px) {
+    .form{
+        position: relative;
+        margin-left: 125%;
+        margin-top: -70%;
+        width: 90%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }   
+}
+
+@media screen and (max-width: 414px) {
+    .form{
+        position: absolute;
+        margin-left: 37%;
+        top: 8300%;
+        width: 80%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }   
+}
+
+@media screen and (max-width: 375px) {
+    .form{
+        position: absolute;
+        margin-left:29%;
+        top: 6060%;
+        width: 90%;
+        background: linear-gradient(23deg, #ffe365, #e2be1d);
+        padding: 30px;
+        border-radius: 10px;
+    }   
+}

@@ -1,0 +1,285 @@
+.modal__wrapper__Pickup{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #14141f9c;
+    z-index: 4444444;
+}
+
+.single__modal{
+   position: relative;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 500px;
+   transform: translate(-50%,-50%);
+   background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+   border-radius: 5px;
+   padding: 30px;
+   z-index: 5555555 !important;
+}
+
+.close__modal__pickP{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 6666666;
+    
+}
+
+.close__modal__pickP i{
+    background: Red;
+    color: #fff;    
+    position: absolute;
+    top: 0%;
+    left: 89.3%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 6px;
+}
+
+.menu__close button{
+    position: relative;
+    left: -25%;
+    transform: translateY(70%);
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px 10px;
+    background: #0E1B31;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.menu__close button:active{
+    transform: scale(0.8);
+    transition: 0.7s;
+}
+
+.menu__close button:hover{
+    opacity: 0.7;
+}
+
+.options__buttons button{
+    position: relative;
+    margin-top: -10px;
+    margin-left: -18px;  
+}
+
+.concert__option{
+    position: relative;
+    transform: translateY(20%);
+    left: -25%;
+    border: 1px solid #0E1B31;
+    border-radius: 10px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.concert__option:active{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.search-results{
+    display: flex;
+    top: 0;
+}
+
+@media screen and (max-width: 414px) {
+    .single__modal{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        width: 320px;
+        height: 500px;
+        transform: translate(-50%,-50%);
+        background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+        border-radius: 5px;
+        padding: 30px 10px;
+        z-index: 5555555 !important;
+     }
+     
+     .close__modal__pickP{
+         position: absolute;
+         top: 0;
+         right: 0;
+         z-index: 6666666;
+         
+     }
+     
+     .single__modal span i{
+         background: Red;
+         color: #fff;    
+         position: absolute;
+         top: 0;
+         left: 89%;
+         width: 30px;
+         height: 30px;
+         cursor: pointer;
+         line-height: normal;
+         padding: 6px;
+     }
+     
+     .menu__close button{
+         position: relative;
+         left: 2%;
+         padding: 10px 20px;
+         display:inline-block;
+         align-items: center;
+         justify-content: center;
+         background: #0E1B31;
+         color: #fff;
+         margin-top: 10%;
+         margin-left: 20%;
+         border-radius: 10px;
+         border: none;
+         outline: none;
+     }
+     
+     .menu__close button:active{
+         transform: scale(0.8);
+         transition: 0.7s;
+     }
+     
+     .menu__close button:hover{
+         opacity: 0.7;
+     }
+     
+     .options__buttons button{
+         position: absolute;
+         margin-top: -2px;
+         margin-left: 10px;  
+     }
+     
+     .concert__option{
+         position: relative;
+         transform: translateY(20%);
+         left: -2%;
+         border: 1px solid #0E1B31;
+         border-radius: 10px;
+         color: #fff;
+         height: 100%;
+         width: 100%;
+         padding: 5px;
+         display: block;
+         border: none;
+         outline: none;
+         margin: 10px;
+     }
+     
+     .concert__option:active{
+         transform: scale(0.8);
+         transition: 0.5s;
+     }
+     
+     .search-results{
+         display: flex;
+         top: 0;
+     }
+}
+
+@media screen and (max-width: 375px) {
+    .single__modal{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 320px;
+        height: 500px;
+        transform: translate(-50%,-50%);
+        background: linear-gradient(27deg, #ffefa8, #e2be1d) !important;
+        border-radius: 5px;
+        padding: 30px 10px;
+        z-index: 5555555 !important;
+     }
+     
+     .close__modal__pickP{
+         position: absolute;
+         top: 0;
+         right: 0;
+         z-index: 6666666;
+         
+     }
+     
+     .single__modal span i{
+         background: Red;
+         color: #fff;    
+         position: absolute;
+         top: 0;
+         left: 89%;
+         width: 30px;
+         height: 30px;
+         cursor: pointer;
+         line-height: normal;
+         padding: 6px;
+     }
+     
+     .menu__close button{
+         position: relative;
+         left: 7%;
+         padding: 10px 20px;
+         display:inline-block;
+         align-items: center;
+         justify-content: center;
+         background: #0E1B31;
+         color: #fff;
+         transform: translateY(-0%);  
+         margin-top: 10%;
+         margin-left: 20%;
+         border-radius: 10px;
+         border: none;
+         outline: none;
+     }
+     
+     .menu__close button:active{
+         transform: scale(0.8);
+         transition: 0.7s;
+     }
+     
+     .menu__close button:hover{
+         opacity: 0.7;
+     }
+     
+     .options__buttons button{
+         position: absolute;
+         margin-top: -2px;
+         margin-left: 10px;  
+     }
+     
+     .concert__option{
+         position: relative;
+         transform: translateY(20%);
+         left: -2%;
+         border: 1px solid #0E1B31;
+         border-radius: 10px;
+         color: #fff;
+         height: 100%;
+         width: 100%;
+         padding: 5px;
+         display: block;
+         border: none;
+         outline: none;
+         margin: 10px;
+     }
+     
+     .concert__option:active{
+         transform: scale(0.8);
+         transition: 0.5s;
+     }
+     
+     .search-results{
+         display: flex;
+         top: 0;
+     }
+}
